@@ -1,0 +1,21 @@
+# Sampaio Soluções — Configurações de Robots
+
+# Permite indexação no Google e outros mecanismos
+User-agent: *
+Allow: /
+
+# Ignora logs e binários
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+# Disallowed (não envie isso a menos que queira proibir)
+# Disallow: /admin
+
+# Canonical
+Sitemap: https://seu-usuario.github.io/sampaio-solucoes/sitemap.xml
+
+# Recomendação: para produção, use:
+# Sitemap: https://SEU_USUARIO.github.io/sampaio-solucoes/sitemap.xml

@@ -1,0 +1,209 @@
+<!-- Sampaio Soluções — Sprite de ícones SVG (usado via <use href="#id">) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">
+
+  <!-- Logo / símbolo -->
+  <symbol id="logo-symbol" viewBox="0 0 64 64">
+    <rect width="64" height="64" rx="12" fill="#0f1f3d" />
+    <path d="M14 46 L28 20 L30 34 L42 16" fill="none" stroke="#ffd23f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="48" cy="18" r="6" fill="#0f1f3d" stroke="#ffd23f" stroke-width="4" />
+    <circle cx="10" cy="14" r="3" fill="#ffd23f" />
+  </symbol>
+
+  <!-- Categoria 1 — Instalações elétricas -->
+  <symbol id="ic-eletricista" viewBox="0 0 64 64">
+    <rect x="14" y="34" width="36" height="10" rx="3" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="3" />
+    <path d="M22 34 L22 20 L30 20 L30 34" fill="none" stroke="#ffd23f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M30 20 L40 34" fill="none" stroke="#ffd23f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="26" cy="38" r="3" fill="#ffd23f" />
+    <rect x="28" y="40" width="16" height="3" rx="1" fill="#0f1f3d" />
+  </symbol>
+
+  <symbol id="ic-carregador" viewBox="0 0 64 64">
+    <rect x="10" y="18" width="44" height="44" rx="6" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <rect x="32" y="30" width="4" height="10" rx="2" fill="#ffd23f" />
+    <path d="M16 22 L16 44 L8 44" fill="none" stroke="#ffd23f" stroke-width="4" stroke-linecap="round" />
+    <path d="M44 25 L44 44 L52 44" fill="none" stroke="#ffd23f" stroke-width="4" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-multimetro" viewBox="0 0 64 64">
+    <rect x="16" y="10" width="32" height="30" rx="5" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <rect x="20" y="14" width="24" height="10" rx="2" fill="#4a5568" />
+    <path d="M20 28 L44 28 L44 36 L20 36 Z" fill="none" stroke="#ffd23f" stroke-width="2" stroke-linejoin="round" />
+    <path d="M24 40 L24 46 L34 46 L34 40 Z" fill="#ffd23f" />
+    <circle cx="22" cy="20" r="2" fill="#ffd23f" />
+  </symbol>
+
+  <symbol id="ic-chave" viewBox="0 0 64 64">
+    <path d="M30 18 L36 24 L44 24" fill="none" stroke="#0f1f3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M34 28 L34 42 A12 12 0 0 1 46 50 L50 50" fill="none" stroke="#0f1f3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="18" cy="32" r="3" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+  </symbol>
+
+  <symbol id="ic-feet" viewBox="0 0 64 64">
+    <rect x="14" y="16" width="36" height="24" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="3" />
+    <path d="M20 24 L20 36 L44 36 L44 24" fill="none" stroke="#ffd23f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M24 36 L24 48 L40 48 L40 36" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <symbol id="ic-depositario" viewBox="0 0 64 64">
+    <rect x="10" y="20" width="44" height="34" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <rect x="10" y="20" width="44" height="10" rx="3" fill="#ffd23f" />
+    <rect x="22" y="34" width="20" height="10" rx="3" fill="#0f1f3d" />
+    <circle cx="24" cy="45" r="4" fill="#ffd23f" />
+    <circle cx="40" cy="45" r="4" fill="#ffd23f" />
+  </symbol>
+
+  <symbol id="ic-por-do-sol" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="14" fill="#ffd23f" />
+    <path d="M32 12 L32 22" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M32 42 L32 52" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M12 32 L22 32" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M42 32 L52 32" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M18 18 L24 24" fill="none" stroke="#0f1f3d" stroke-width="2" stroke-linecap="round" />
+    <path d="M40 40 L46 46" fill="none" stroke="#0f1f3d" stroke-width="2" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-camara" viewBox="0 0 64 64">
+    <rect x="20" y="14" width="24" height="24" rx="6" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <circle cx="32" cy="26" r="6" fill="#0f1f3d" stroke="#ffd23f" stroke-width="3" />
+    <path d="M32 38 L32 50 L24 50" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="16" y="52" width="32" height="4" rx="2" fill="#0f1f3d" />
+  </symbol>
+
+  <symbol id="ic-fechadura" viewBox="0 0 64 64">
+    <rect x="14" y="22" width="36" height="22" rx="5" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <rect x="22" y="28" width="20" height="10" rx="3" fill="#ffd23f" />
+    <circle cx="32" cy="40" r="5" fill="#ffd23f" />
+    <path d="M14 33 L44 33" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-alexa" viewBox="0 0 64 64">
+    <rect x="14" y="26" width="36" height="28" rx="12" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <circle cx="22" cy="33" r="8" fill="#ffd23f" />
+    <circle cx="40" cy="33" r="8" fill="#ffd23f" />
+    <circle cx="22" cy="33" r="4" fill="#0f1f3d" />
+    <circle cx="40" cy="33" r="4" fill="#0f1f3d" />
+    <path d="M22 43 L40 43" fill="none" stroke="#0f1f3d" stroke-width="2" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-televisor" viewBox="0 0 64 64">
+    <rect x="8" y="14" width="48" height="30" rx="5" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <rect x="14" y="20" width="36" height="16" rx="3" fill="#334155" />
+    <rect x="20" y="26" width="24" height="4" rx="1" fill="#ffd23f" />
+    <rect x="14" y="10" width="36" height="6" rx="2" fill="#0f1f3d" />
+  </symbol>
+
+  <symbol id="ic-lavar" viewBox="0 0 64 64">
+    <rect x="10" y="20" width="44" height="30" rx="6" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <path d="M22 30 L22 46 L42 46 L42 30" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="14" y="40" width="36" height="4" rx="2" fill="#0f1f3d" />
+    <circle cx="22" cy="26" r="3" fill="#ffd23f" />
+    <circle cx="42" cy="26" r="3" fill="#ffd23f" />
+  </symbol>
+
+  <symbol id="ic-calcado" viewBox="0 0 64 64">
+    <path d="M14 34 L34 44 L46 44 L46 26" fill="none" stroke="#0f1f3d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M18 34 L30 42 L44 42" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M34 44 L34 60 L46 60" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-cimento" viewBox="0 0 64 64">
+    <rect x="10" y="10" width="44" height="44" rx="6" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <path d="M22 26 L22 10 L34 10 L34 26" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M16 34 L48 34" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M28 34 L28 48 L40 48" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-construcao" viewBox="0 0 64 64">
+    <rect x="14" y="14" width="36" height="36" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <path d="M30 24 L30 42 L38 42" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M24 42 L24 52 L30 52" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M38 42 L38 52 L44 52" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-seguranca" viewBox="0 0 64 64">
+    <path d="M14 14 L48 14 L48 46 L40 46 L40 56 L24 56 L24 46 L14 46 Z" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" stroke-linejoin="round" />
+    <path d="M14 14 L48 14 L48 46 L40 46 L40 56 L24 56 L24 46 L14 46 Z" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linejoin="round" />
+    <circle cx="32" cy="36" r="8" fill="#ffd23f" />
+  </symbol>
+
+  <symbol id="ic-luz" viewBox="0 0 64 64">
+    <path d="M32 8 L32 24" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M8 32 L24 32" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M40 32 L56 32" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M16 48 L32 48" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M48 48 L56 48" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <circle cx="32" cy="32" r="8" fill="#ffd23f" />
+    <path d="M32 24 L32 20" fill="none" stroke="#0f1f3d" stroke-width="2" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-emergencia" viewBox="0 0 64 64">
+    <rect x="10" y="10" width="44" height="44" rx="6" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <circle cx="32" cy="32" r="10" fill="#ffd23f" />
+    <path d="M32 22 L32 42" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M22 32 L42 32" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-banha" viewBox="0 0 64 64">
+    <rect x="14" y="10" width="36" height="44" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <path d="M20 10 L20 26 L44 26 L44 10" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M18 40 L46 40 L46 44 L18 44 Z" fill="#334155" />
+    <path d="M18 40 Q32 42 46 40" fill="none" stroke="#ffd23f" stroke-width="2" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-boiler" viewBox="0 0 64 64">
+    <rect x="10" y="18" width="44" height="30" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <rect x="18" y="24" width="28" height="14" rx="2" fill="#334155" />
+    <path d="M24 42 L24 50 L40 50 L40 42" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="32" cy="36" r="4" fill="#ffd23f" />
+  </symbol>
+
+  <symbol id="ic-estrutura" viewBox="0 0 64 64">
+    <path d="M20 44 L20 24 L44 24 L44 44" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M20 34 L44 34" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" />
+    <path d="M24 44 L14 10 M40 44 L54 10" fill="none" stroke="#0f1f3d" stroke-width="2" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-porta" viewBox="0 0 64 64">
+    <rect x="14" y="14" width="36" height="36" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <rect x="20" y="20" width="24" height="24" rx="3" fill="#334155" />
+    <rect x="26" y="26" width="10" height="10" rx="2" fill="#ffd23f" />
+    <circle cx="26" cy="30" r="3" fill="#0f1f3d" />
+  </symbol>
+
+  <symbol id="ic-flooring" viewBox="0 0 64 64">
+    <rect x="10" y="10" width="44" height="44" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <path d="M10 34 L54 34" fill="none" stroke="#ffd23f" stroke-width="2" stroke-linecap="round" />
+    <path d="M32 10 L32 54" fill="none" stroke="#ffd23f" stroke-width="2" stroke-linecap="round" />
+    <path d="M32 10 L10 34 M32 10 L54 34 M32 10 L10 54 M32 10 L54 54" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-gesso" viewBox="0 0 64 64">
+    <rect x="10" y="10" width="44" height="44" rx="4" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <path d="M16 16 L48 16 L48 48 L16 48 Z" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linejoin="round" />
+    <path d="M16 16 Q16 48 48 48" fill="none" stroke="#ffd23f" stroke-width="2" stroke-linecap="round" />
+    <path d="M16 48 L48 16" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+  </symbol>
+
+  <symbol id="ic-pintura" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="8" fill="#ffd23f" />
+    <path d="M32 24 L32 40" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M24 32 L40 32" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" />
+    <path d="M28 20 L40 40" fill="none" stroke="#0f1f3d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <symbol id="ic-escada" viewBox="0 0 64 64">
+    <path d="M14 14 L50 14 L50 20 L14 20 Z" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" stroke-linejoin="round" />
+    <path d="M14 20 L14 54 L50 54" fill="none" stroke="#ffd23f" stroke-width="2" stroke-linecap="round" />
+    <path d="M14 30 L50 30" fill="none" stroke="#0f1f3d" stroke-width="2" stroke-linecap="round" />
+    <path d="M14 40 L50 40" fill="none" stroke="#0f1f3d" stroke-width="2" stroke-linecap="round" />
+    <rect x="20" y="14" width="8" height="10" rx="1" fill="#334155" />
+    <rect x="32" y="14" width="8" height="10" rx="1" fill="#334155" />
+  </symbol>
+
+  <symbol id="ic-radio" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="16" fill="#0f1f3d" stroke="#0f1f3d" stroke-width="2" />
+    <path d="M22 32 L22 36 L22 40 L26 40 L26 44 L32 44 L38 44 L38 40 L38 36 L38 32" fill="none" stroke="#ffd23f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+</svg>

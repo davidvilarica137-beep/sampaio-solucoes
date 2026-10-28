@@ -1,0 +1,22 @@
+# Gitignore for Sampaio Soluções
+
+# Arquivos de build/fix (não exibem no site)
+tools/
+*.log
+
+# Segredos (nunca commitar)
+.env
+*.key
+*.pem
+credentials.json
+
+# Arquivos temporários de edição
+*.swp
+*~
+
+# Sistema
+.DS_Store
+
+# Venv (se houver)
+venv/
+__pycache__/

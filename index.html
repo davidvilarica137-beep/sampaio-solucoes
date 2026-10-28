@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sampaio Soluções | Construção, Reformas e Instalações</title>
+  <meta name="description" content="Sampaio Soluções — Construção, reformas, instalações elétricas, hidráulicas, acabamentos, automação residencial e instalações domésticas em Santa Cecília, São Paulo. Solicite orçamento pelo WhatsApp.">
+  <meta name="author" content="Sampaio Soluções">
+  <meta name="theme-color" content="#0f1f3d">
+
+  <meta property="og:title" content="Sampaio Soluções | Construção, Reformas e Instalações">
+  <meta property="og:description" content="Soluções para sua casa ou empresa em instalações elétricas, hidráulicas, acabamentos, automação residencial e serviços de reforma.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://seu-usuario.github.io/sampaio-solucoes/">
+  <meta property="og:image" content="https://seu-usuario.github.io/sampaio-solucoes/assets/images/hero-composition.svg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Sampaio Soluções",
+    "description": "Construção, reformas, instalações elétricas, hidráulicas, acabamentos, automação residencial e instalações domésticas em Santa Cecília, São Paulo.",
+    "url": "https://seu-usuario.github.io/sampaio-solucoes/",
+    "email": "sampaiosolucoes2904@gmail.com",
+    "telephone": "+55 41 99270-4394",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Fortunato, 75, sala 4",
+      "addressLocality": "Santa Cecília",
+      "addressRegion": "SP",
+      "postalCode": "01224-030",
+      "addressCountry": "BR"
+    },
+    "sameAs": []
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header" role="banner">
+    <div class="header__container">
+      <a href="#inicio" class="header__logo" aria-label="Sampaio Soluções — Início">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <use href="assets/icons/sprite.svg#logo-symbol"/>
+        </svg>
+        <strong class="header__logo__nome">Sampaio Soluções</strong>
+      </a>
+
+      <nav class="header__menu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio" class="header__menu__link header__menu__link--ativo">Início</a></li>
+          <li><a href="#servicos" class="header__menu__link">Serviços</a></li>
+          <li><a href="#diferencial" class="header__menu__link">Diferenciais</a></li>
+          <li><a href="#faq" class="header__menu__link">Perguntas Frequentes</a></li>
+          <li><a href="#contato" class="header__menu__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="header__btn-cta" href="https://wa.me/5541992794394" target="_blank" rel="noopener">
+        Solicitar Orçamento
+      </a>
+
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Abrir menu">
+        <span class="menu-bar menu-bar--top"></span>
+        <span class="menu-bar menu-bar--middle"></span>
+        <span class="menu-bar menu-bar--bottom"></span>
+      </button>
+    </div>
+
+    <div id="menu-mobile" class="header__menu--mobile" role="menu">
+      <ul role="list">
+        <li><a href="#inicio" class="header__menu__link header__menu__link--ativo" role="menuitem">Início</a></li>
+        <li><a href="#servicos" class="header__menu__link" role="menuitem">Serviços</a></li>
+        <li><a href="#diferencial" class="header__menu__link" role="menuitem">Diferenciais</a></li>
+        <li><a href="#faq" class="header__menu__link" role="menuitem">Perguntas Frequentes</a></li>
+        <li><a href="#contato" class="header__menu__link" role="menuitem">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Seção principal — Hero -->
+  <section class="hero" id="inicio" aria-label="Apresentação">
+    <div class="hero__grid">
+      <div class="hero__conteudo">
+        <h1>Sampaio Soluções |<br>Construção, Reformas e Instalações</h1>
+        <p>Soluções para sua casa ou empresa em instalações elétricas, hidráulicas, acabamentos, automação residencial e serviços de reforma.</p>
+        <div class="hero__acoes">
+          <a href="https://wa.me/5541992794394" class="hero__btn-whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18.5c-4.67 0-8.5-3.83-8.5-8.5S7.33 4 12 4s8.5 3.83 8.5 8.5-3.83 8.5-8.5 8.5zm-1-13.5h2v4h-2V7zm0 10h2v2h-2v-2z"/>
+            </svg>
+            Solicitar orçamento pelo WhatsApp
+          </a>
+          <a href="#servicos" class="hero__btn-secundario">
+            Conheça nossos serviços
+          </a>
+        </div>
+      </div>
+      <div class="hero__imagem" aria-hidden="true">
+        <img src="assets/images/hero-composition.svg" alt="Composições técnicas de ferramentas, multímetros, alicates e instalações elétricas">
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de apresentação -->
+  <section class="apresentacao" id="apresentacao">
+    <div class="apresentacao__container">
+      <div class="apresentacao__texto">
+        <h2>Quem somos</h2>
+        <p>A <strong>Sampaio Soluções</strong> atua com uma ampla gama de serviços voltados para a residência e a edificação, unindo tecnologia, precariedade e organização nas operações de instalações e reformas. Cada executante possui qualidade variável, e o cliente deve acompanhar o custo com atenção.</p>
+        <div class="apresentacao__valor">
+          <div class="apresentacao__valor__item">
+            <h3>Serviços completos</h3>
+            <p>Eletricidade, hidráulica, acabamentos, pintura e configuração residencial.</p>
+          </div>
+          <div class="apresentacao__valor__item">
+            <h3>Atendimento em São Paulo</h3>
+            <p>Atuação centralizada na região de Santa Cecília e redondas.</p>
+          </div>
+          <div class="apresentacao__valor__item">
+            <h3>Contato imediato</h3>
+            <p>Solicitação de orçamento pelo WhatsApp em poucos cliques.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de serviços -->
+  <section class="servicos" id="servicos">
+    <div class="servicos__cabecalho">
+      <h2>Nossos serviços</h2>
+      <p>Organizados por categoria para facilitar a sua busca. Selecione o que você precisa e peça seu orçamento pelo WhatsApp.</p>
+    </div>
+
+    <div class="categorias">
+      <!-- Categoria 1 — Instalações elétricas -->
+      <article class="categoria">
+        <div class="categoria__titulo">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-eletricista"/></svg>
+          Instalações Elétricas
+        </div>
+        <div class="categoria__lista">
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-eletricista"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Eletricista predial</h3>
+              <p class="categoria__item__descricao">Instalação, manutenção e revisão de sistemas elétricos de edifícios, garantindo segurança e normatização.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para eletricista predial.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-luz"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Eletricista residencial</h3>
+              <p class="categoria__item__descricao">Instalação de Cair, tomadas, luz emais em residências, com atenção ao segurança e ao funcionamento.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para eletricista residencial.">Solicitar orçamento</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Categoria 2 — Pisos e acabamentos -->
+      <article class="categoria">
+        <div class="categoria__titulo">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-depositario"/></svg>
+          Pisos e Acabamentos
+        </div>
+        <div class="categoria__lista">
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-flooring"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de pisos</h3>
+              <p class="categoria__item__descricao">Projetos e execução de pisos em embaixo, cerâmica e outras superfícies.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para instala%C3%A7%C3%A3o de pisos.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-por-do-sol"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Piso vinílico</h3>
+              <p class="categoria__item__descricao">Placas de vinil com acabamento fino, adaptadas ao espaço e à destinação do ambiente.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para piso vin%C3%ADlico.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-porta"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de portas e janelas</h3>
+              <p class="categoria__item__descricao">Montagem, ajuste e regularização de portas e janelas, garantindo bom acabamento e funcionalidade.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para instala%C3%A7%C3%A3o de portas e janelas.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-carregador"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Forro de madeira</h3>
+              <p class="categoria__item__descricao">Forro de madeira para paredes e céus, com acabamento e profissionalidade.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para forro de madeira.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-cimento"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Forro de PVC</h3>
+              <p class="categoria__item__descricao">Forro de PVC para paredes e céus, com acabamento e profissionalidade.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para forro de PVC.">Solicitar orçamento</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Categoria 3 — Hidráulica e aquecimento -->
+      <article class="categoria">
+        <div class="categoria__titulo">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-banha"/></svg>
+          Hidráulica e Aquecimento
+        </div>
+        <div class="categoria__lista">
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-luz"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Serviços hidráulicos</h3>
+              <p class="categoria__item__descricao">Instalação, partida, manutenção e reparo de tubulações e sistemas hidráulicos.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para servi%C3%A7os hidr%C3%A1ulicos.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-banha"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de banheira de hidromassagem</h3>
+              <p class="categoria__item__descricao">Instalação de banheiras de hidromassagem, com conexão elétrica e encanamento conforme os requisitos.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para banheira de hidromassagem.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-boiler"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de boiler de aquecimento</h3>
+              <p class="categoria__item__descricao">Instalação e adaptação de boilers para aquecer águas, com projeto e bom resultado.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para boiler de aquecimento.">Solicitar orçamento</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Categoria 4 — Pintura e reformas -->
+      <article class="categoria">
+        <div class="categoria__titulo">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-pintura"/></svg>
+          Pintura e Reformas
+        </div>
+        <div class="categoria__lista">
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-pintura"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Pintura</h3>
+              <p class="categoria__item__descricao">Pintura de interiores e externas, com preparo da superfície, maquiagem e acabamento.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para pintura.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-gesso"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Gesso</h3>
+              <p class="categoria__item__descricao">Aplicação de gesso e acabamento de paredes, preparação de superfícies e alinhamento.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para gesso.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-estrutura"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Drywall</h3>
+              <p class="categoria__item__descricao">Instalação de gesso e molduras internas, com acabamento suave e durável.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para drywall.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-construcao"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Construção e reforma</h3>
+              <p class="categoria__item__descricao">Serviços de construção e reforma relacionados às atividades informadas, adaptados à necessidade do ambiente.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para constru%C3%A7%C3%A3o e reforma.">Solicitar orçamento</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Categoria 5 — Segurança e automação -->
+      <article class="categoria">
+        <div class="categoria__titulo">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-seguranca"/></svg>
+          Segurança e Automação
+        </div>
+        <div class="categoria__lista">
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-camara"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de câmeras CFTV</h3>
+              <p class="categoria__item__descricao">Instalação de sistemas de vigilância por vídeo, com gravação, transmissão e configuração.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para instala%C3%A7%C3%A3o de c%C3%A2meras CFTV.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-fechadura"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de fechaduras eletrônicas</h3>
+              <p class="categoria__item__descricao">Instalação de fechaduras eletrônicas, codificadas e de acesso, com adequação e segurança.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para fechadura eletr%C3%B4nica.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-alexa"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Automação residencial com Alexa</h3>
+              <p class="categoria__item__descricao">Configuração de sistemas de automação residencial, incluindo dispositivos conectados e controle remoto.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para automa%C3%A7%C3%A3o residencial.">Solicitar orçamento</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Categoria 6 — Instalações domésticas -->
+      <article class="categoria">
+        <div class="categoria__titulo">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-televisor"/></svg>
+          Instalações Domésticas
+        </div>
+        <div class="categoria__lista">
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-televisor"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de televisores</h3>
+              <p class="categoria__item__descricao">Montagem e instalação de televisores na parede, com cabeamento e posicionamento.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para instala%C3%A7%C3%A3o de televisores.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-lavar"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de máquina de lavar roupa</h3>
+              <p class="categoria__item__descricao">Instalação e conexão de máquinas de lavar roupa, com ajuste de tubulações e retrovisores.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para lavar roupa.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-lavar"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de lava-louças</h3>
+              <p class="categoria__item__descricao">Instalação de lava-louças, contendo tarefa e ligação com a tomada.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para lava-lou%C3%A7a.">Solicitar orçamento</button>
+            </div>
+          </div>
+          <div class="categoria__item">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-eletricista"/></svg>
+            <div class="categoria__item__conteudo">
+              <h3 class="categoria__item__titulo">Instalação de outros eletrodomésticos</h3>
+              <p class="categoria__item__descricao">Instalação de outros eletrodomésticos compatíveis com os serviços prestados, conforme a necessidade.</p>
+              <button class="categoria__item__acao" type="button"  data-wa="https://wa.me/5541992794394?text=Ol%C3%A1, gostaria de solicitar um or%C3%A7amento para eletrodom%C3%A9stico.">Solicitar orçamento</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Seção de diferenciais -->
+  <section class="diferencial" id="diferencial">
+    <div class="diferencial__container">
+      <h2 class="diferencial__titulo">Por que escolher a Sampaio Soluções?</h2>
+      <p class="diferencial__texto">Existem pontos que facilitam o trabalho do cliente: atenção, comunicação e organização dos serviços. A empresa disponibiliza todos os nossos serviços, alguns deles podem ser executados em um único atendimento, e o cliente pode solicitar orçamentos por categorias.</p>
+      <div class="diferencial__lista">
+        <div class="diferencial__item">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-luz"/></svg>
+          <h3>Serviços organizados</h3>
+          <p>Cada serviço é atribuído a um setor, facilitando a verificação e entendimento.</p>
+        </div>
+        <div class="diferencial__item">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-camara"/></svg>
+          <h3>Segurança desde o início</h3>
+          <p>Serviços técnicos com atenção aos requisitos de instalados e prediais.</p>
+        </div>
+        <div class="diferencial__item">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-construcao"/></svg>
+          <h3>Aceitamos reformas</h3>
+          <p>Projetos de reforma ajustados ao perfil da casa ou comércio.</p>
+        </div>
+        <div class="diferencial__item">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons/sprite.svg#ic-radio"/></svg>
+          <h3>Contato direto</h3>
+          <p>Solicitação de orçamento pelo WhatsApp, sem intermediários.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fluxo de atendimento -->
+  <section class="fluxo" id="fluxo">
+    <div class="fluxo__container">
+      <h2 class="fluxo__titulo">Como funciona o atendimento</h2>
+      <div class="fluxo__passos">
+        <div class="fluxo__passo">
+          <div class="fluxo__passo__numeracao">1</div>
+          <div class="fluxo__passo__conteudo">
+            <h3>O cliente escolhe o serviço</h3>
+            <p>Navega pelas categorias e seleciona a atividade desejada para conversar.</p>
+          </div>
+        </div>
+        <div class="fluxo__passo">
+          <div class="fluxo__passo__numeracao">2</div>
+          <div class="fluxo__passo__conteudo">
+            <h3>Entra em contato pelo WhatsApp</h3>
+            <p>Clica no botão e envia a solicitação de orçamento.</p>
+          </div>
+        </div>
+        <div class="fluxo__passo">
+          <div class="fluxo__passo__numeracao">3</div>
+          <div class="fluxo__passo__conteudo">
+            <h3>Explica a necessidade</h3>
+            <p>Comunica ao atendente os detalhes do serviço, área e prazo.</p>
+          </div>
+        </div>
+        <div class="fluxo__passo">
+          <div class="fluxo__passo__numeracao">4</div>
+          <div class="fluxo__passo__conteudo">
+            <h3>A empresa avalia e combina os próximos passos</h3>
+            <p>Acompanha e orienta o cliente para a solução do serviço.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Perguntas frequentes -->
+  <section class="faq" id="faq">
+    <div class="faq__container">
+      <h2 class="faq__titulo">Perguntas Frequentes</h2>
+      <div class="faq__lista">
+        <div class="faq__item">
+          <button class="faq__questao" type="button">
+            Como solicitar orçamento?
+            <span class="faq__resposta__icone">+</span>
+          </button>
+          <div class="faq__resposta">
+            <div class="faq__resposta__conteudo">
+              <p>Basta acessar o WhatsApp pelo botão <strong>“Solicitar orçamento”</strong> no site, informar o serviço desejado e aguardar a resposta. Você pode mandar as medidas e fotos da obra antes de agendar uma visita.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__questao" type="button">
+            Quais categorias de serviços são oferecidas?
+            <span class="faq__resposta__icone">+</span>
+          </button>
+          <div class="faq__resposta">
+            <div class="faq__resposta__conteudo">
+              <ul>
+                <li>Eletricista predial e residencial;</li>
+                <li>Instalação de pisos, piso vinílico, portas e janelas, forro de madeira e PVC;</li>
+                <li>Serviços hidráulicos, banheira de hidromassagem, boiler de aquecimento;</li>
+                <li>Pintura, gesso, drywall e construção/reforma;</li>
+                <li>Câmeras CFTV, fechaduras eletrônicas e automação residencial com Alexa;</li>
+                <li>Instalação de TVs, máquinas de lavar roupa, lava-louças e outros eletrodomésticos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__questao" type="button">
+            Como informar o tipo de instalação ou reforma desejada?
+            <span class="faq__resposta__icone">+</span>
+          </button>
+          <div class="faq__resposta">
+            <div class="faq__resposta__conteudo">
+              <p>No campo de mensagem do WhatsApp, descreva o ambiente, as dimensões, o uso previsto e quais serviços foram feitos ou planejados. Antes da visita, indicamos o que mudará no orçamento.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__questao" type="button">
+            Como entrar em contato?
+            <span class="faq__resposta__icone">+</span>
+          </button>
+          <div class="faq__resposta">
+            <div class="faq__resposta__conteudo">
+              <p>Ao longo do site há botões de WhatsApp e um formulário de orçamento na seção Contato. O e-mail da empresa também pode ser usado para enviar mensagens. Contate-nos diretamente pela WhatsApp ou pelo e-mail.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__questao" type="button">
+            Como confirmar disponibilidade e área de atendimento?
+            <span class="faq__resposta__icone">+</span>
+          </button>
+          <div class="faq__resposta">
+            <div class="faq__resposta__conteudo">
+              <p>Para isso, basta entrar em contato pelo WhatsApp ou e-mail. Assim, o atendente confirma a disponibilidade, o prazo e a área de atendimento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de contato -->
+  <section class="contato" id="contato">
+    <div class="contato__container">
+      <div class="contato__coluna__esquerda">
+        <h2>Entre em contato</h2>
+        <p><strong>Sampaio Soluções</strong></p>
+        <p class="contato__item">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/>
+          </svg>
+          E-mail: <a href="mailto:sampaiosolucoes2904@gmail.com">sampaiosolucoes2904@gmail.com</a>
+        </p>
+        <p class="contato__item">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.35 11.35 0 003.64.68 1 1 0 011 1V20a2 2 0 01-2 2 1 1 0 01-1-1h-4a1 1 0 01-.98-.89 11.35 11.35 0 00-4.29-4.29l-2.2 2.2a2 2 0 01-2.56-2.56l2.2-2.2a11.35 11.35 0 00-.68-3.64 1 1 0 01.24-1.01z"/>
+            <text x="12" y="13" text-anchor="middle" font-size="9" fill="currentColor">@</text>
+          </svg>
+          WhatsApp: <a href="https://wa.me/5541992794394" target="_blank" rel="noopener">(41) 99270-4394</a>
+        </p>
+        <p class="contato__item">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm0-8h-2V6h2v2z"/>
+          </svg>
+          Endereço:
+          <br>
+          <span class="microdados-endereco">Rua Fortunato, 75, sala 4 – Santa Cecília, São Paulo – SP, 01224-030</span>
+        </p>
+        <p class="contato__item">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 6v6l4 2"/>
+          </svg>
+          Respondemos em breve. Fale conosco todos os dias.
+        </p>
+      </div>
+
+      <form class="contato__form" id="form-orcamento" name="orcamento" novalidate>
+        <div class="contato__coluna__esquerda">
+          <h2 id="titulo-formulario">Solicitar orçamento</h2>
+          <p>Preencha os campos abaixo e enviaremos uma mensagem preparada no WhatsApp.</p>
+          <div class="contato__erro erro"></div>
+
+          <div class="contato__form__botoes">
+            <button type="submit" class="contato__btn-whatsapp">Enviar via WhatsApp</button>
+            <button type="submit" class="contato__btn-enviar" id="btn-enviar">Enviar</button>
+          </div>
+        </div>
+
+        <div class="contato__form">
+          <label for="campos-servico">Serviço solicitado</label>
+          <select id="campos-servico" name="servico" required aria-required="true">
+            <option value="">Selecione um serviço</option>
+            <option value="Eletricista predial">Eletricista predial</option>
+            <option value="Eletricista residencial">Eletricista residencial</option>
+            <option value="Instalação de pisos">Instalação de pisos</option>
+            <option value="Piso vinílico">Piso vinílico</option>
+            <option value="Instalação de portas e janelas">Instalação de portas e janelas</option>
+            <option value="Forro de madeira">Forro de madeira</option>
+            <option value="Forro de PVC">Forro de PVC</option>
+            <option value="Serviços hidráulicos">Serviços hidráulicos</option>
+            <option value="Banheira de hidromassagem">Banheira de hidromassagem</option>
+            <option value="Boiler de aquecimento">Boiler de aquecimento</option>
+            <option value="Pintura">Pintura</option>
+            <option value="Gesso">Gesso</option>
+            <option value="Drywall">Drywall</option>
+            <option value="Construção e reforma">Construção e reforma</option>
+            <option value="Instalação de câmeras CFTV">Instalação de câmeras CFTV</option>
+            <option value="Instalação de fechaduras eletrônicas">Instalação de fechaduras eletrônicas</option>
+            <option value="Automação residencial com Alexa">Automação residencial com Alexa</option>
+            <option value="Instalação de televisores">Instalação de televisores</option>
+            <option value="Instalação de máquina de lavar roupa">Instalação de máquina de lavar roupa</option>
+            <option value="Instalação de lava-louças">Instalação de lava-louças</option>
+            <option value="Instalação de outros eletrodomésticos">Instalação de outros eletrodomésticos</option>
+          </select>
+
+          <label for="campos-nome">Nome e sobrenome</label>
+          <input type="text" id="campos-nome" name="nome" placeholder="Seu nome" autocomplete="name">
+
+          <label for="campos-telefone">Telefone</label>
+          <input type="tel" id="campos-telefone" name="telefone" placeholder="(41) 99270-4394" autocomplete="tel">
+
+          <label for="campos-mensagem">Mensagem</label>
+          <textarea id="campos-mensagem" name="mensagem" rows="5" placeholder="Detalhes do serviço, medidas, ambiente..."></textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__coluna">
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#diferencial">Diferenciais</a></li>
+          <li><a href="#faq">Perguntas Frequentes</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer__coluna">
+        <h3>Contato</h3>
+        <ul>
+          <li>WhatsApp: <a href="https://wa.me/5541992794394" target="_blank" rel="noopener">(41) 99270-4394</a></li>
+          <li>E-mail: <a href="mailto:sampaiosolucoes2904@gmail.com">sampaiosolucoes2904@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer__coluna">
+        <h3>Endereço</h3>
+        <p>Rua Fortunato, 75, sala 4 – Santa Cecília</p>
+        <p>São Paulo – SP, CEP 01224-030</p>
+      </div>
+      <div class="footer__coluna">
+        <h3>Próximos passos</h3>
+        <ul>
+          <li>Quer um orçamento rápido? Abaixa o WhatsApp abaixo.</li>
+          <li>Automatize o contato do WhatsApp e envie para o e-mail.</li>
+          <li>Ative o Google Search Console para melhorar o posicionamento.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__acao">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.35 11.35 0 003.64.68 1 1 0 011 1V20a2 2 0 01-2 2 1 1 0 01-1-1h-4a1 1 0 01-.98-.89 11.35 11.35 0 00-4.29-4.29l-2.2 2.2a2 2 0 01-2.56-2.56l2.2-2.2a11.35 11.35 0 00-.68-3.64 1 1 0 01.24-1.01z"/>
+      </svg>
+      <a href="https://wa.me/5541992794394" target="_blank" rel="noopener">Falar no WhatsApp</a>
+    </p>
+    <div class="footer__copyright">
+      <p>&copy; <span id="ano-atual"></span> Sampaio Soluções. Todos os direitos reservados.</p>
+      <p>Contatos de empresas foram fornecidos pelo cliente responsável. Confirme-o antes de qualquer publicação oficial.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <button id="whatsapp-float" class="whatsapp-float" aria-label="Falar no WhatsApp" type="button">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18.5c-4.67 0-8.5-3.83-8.5-8.5S7.33 4 12 4s8.5 3.83 8.5 8.5-3.83 8.5-8.5 8.5zm-1-13.5h2v4h-2V7zm0 10h2v2h-2v-2z"/>
+    </svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
